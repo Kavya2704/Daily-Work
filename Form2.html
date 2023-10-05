@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <br>
+
+        <label for="mname">Middle Name</label>
+        <input type="text" id="mname" name="mname">
+        <br>
+        <br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+
+        <label for="bod">DOB</label>
+        <input type="date" id="dob" name="dob">
+    </fieldset>
+    <br><br>
+
+    <fieldset>
+        <legend>Educational Details</legend>
+
+        <label for="">Department</label>
+        <br><br>
+
+        <input type="radio" id="cs" name="dept">
+        <label for="cs">cs</label>
+
+        <input type="radio" id="civil" name="dept">
+        <label for="civil">civil</label>
+
+        <input type="radio" id="mech" name="dept">
+        <label for="mech">mech</label>
+        <br><br>
+
+        <label for="yop">YOP</label>
+        <input list="yog" id="yop" name="yop">
+        <datalist id="yog">
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+        </datalist>
+        <br><br>
+        <label for="">Skills</label>
+        <br><br>
+
+        <input type="checkbox" id="html" name="html">
+        <label for="html">HTML</label>
+        <br><br>
+
+        <input type="checkbox" id="css" name="css">
+        <label for="css">CSS</label>
+        <br><br>
+
+        <input type="checkbox" id="js" name="js">
+        <label for="js">JAVA SCRIPT</label>
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>
